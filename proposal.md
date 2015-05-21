@@ -9,9 +9,9 @@ Author: Sigmund Cherem ([@sigmundch][])
 ## Summary
 
 We propose changing `part of` directives to provide a URI, instead of a name, to
-identify the library that contians it.
+identify the library that contains it.
 
-All other directives in dart (import, export, part) use a URI to uniquely
+All other directives in Dart (import, export, part) use a URI to uniquely
 identify the relation between files, we simply propose to make this consistent
 also for the part-of directive.
 
